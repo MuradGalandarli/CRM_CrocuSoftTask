@@ -1,7 +1,60 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub test\\CRM_CrocuSoftTask\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\migrations\\20241203082930_createdatabasetablerationship.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\migrations\\20241203082930_createdatabasetablerationship.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\dataaccess.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\dataaccess.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241203082930_CreateDatabaseTableRationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess.Layer\\Migrations\\20241203082930_CreateDatabaseTableRationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\entity\\reaport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\entity\\reaport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\entity\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\entity\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241203082725_CreateDatabaseTableRationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess.Layer\\Migrations\\20241203082725_CreateDatabaseTableRationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\bin\\Debug\\net8.0\\Business.Layer.pdb||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Business.Layer\\bin\\Debug\\net8.0\\Business.Layer.pdb||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +71,173 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "RelativeToolTip": "DataAccess.Layer\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAApwDkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T08:32:07.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241203082930_CreateDatabaseTableRationship.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241203082930_CreateDatabaseTableRationship.Designer.cs",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\Migrations\\20241203082930_CreateDatabaseTableRationship.Designer.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241203082930_CreateDatabaseTableRationship.Designer.cs",
+              "RelativeToolTip": "DataAccess.Layer\\Migrations\\20241203082930_CreateDatabaseTableRationship.Designer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAApwDwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T08:29:47.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241203082930_CreateDatabaseTableRationship.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241203082930_CreateDatabaseTableRationship.cs",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\Migrations\\20241203082930_CreateDatabaseTableRationship.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241203082930_CreateDatabaseTableRationship.cs",
+              "RelativeToolTip": "DataAccess.Layer\\Migrations\\20241203082930_CreateDatabaseTableRationship.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T08:29:30.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Member.cs",
+              "RelativeDocumentMoniker": "Entity.Layer\\Entity\\Member.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Member.cs",
+              "RelativeToolTip": "Entity.Layer\\Entity\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:07:13.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reaport.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Reaport.cs",
+              "RelativeDocumentMoniker": "Entity.Layer\\Entity\\Reaport.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Reaport.cs",
+              "RelativeToolTip": "Entity.Layer\\Entity\\Reaport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:03:14.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataAccess.Layer",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\DataAccess.Layer.csproj",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\DataAccess.Layer.csproj",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\DataAccess.Layer.csproj",
+              "RelativeToolTip": "DataAccess.Layer\\DataAccess.Layer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-03T06:44:52.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Team.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Team.cs",
+              "RelativeDocumentMoniker": "Entity.Layer\\Entity\\Team.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Team.cs",
+              "RelativeToolTip": "Entity.Layer\\Entity\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:01:00.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241203082725_CreateDatabaseTableRationship.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241203082725_CreateDatabaseTableRationship.cs",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\Migrations\\20241203082725_CreateDatabaseTableRationship.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241203082725_CreateDatabaseTableRationship.cs",
+              "RelativeToolTip": "DataAccess.Layer\\Migrations\\20241203082725_CreateDatabaseTableRationship.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T08:27:25.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\appsettings.json",
+              "RelativeDocumentMoniker": "Api.Layer\\appsettings.json",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\appsettings.json",
+              "RelativeToolTip": "Api.Layer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T08:01:43.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Business.Layer.pdb",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\bin\\Debug\\net8.0\\Business.Layer.pdb",
+              "RelativeDocumentMoniker": "Business.Layer\\bin\\Debug\\net8.0\\Business.Layer.pdb",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\bin\\Debug\\net8.0\\Business.Layer.pdb",
+              "RelativeToolTip": "Business.Layer\\bin\\Debug\\net8.0\\Business.Layer.pdb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002276|",
+              "WhenOpened": "2024-12-03T08:16:27.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Program.cs",
+              "RelativeDocumentMoniker": "Api.Layer\\Program.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Program.cs",
+              "RelativeToolTip": "Api.Layer\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIA5wBcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:51:25.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\ApplicationContext.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\ApplicationContext.cs",
+              "RelativeToolTip": "DataAccess.Layer\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:05:14.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Project.cs",
+              "RelativeDocumentMoniker": "Entity.Layer\\Project.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Project.cs",
+              "RelativeToolTip": "Entity.Layer\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:01:21.298Z",
+              "EditorCaption": ""
             }
           ]
         }

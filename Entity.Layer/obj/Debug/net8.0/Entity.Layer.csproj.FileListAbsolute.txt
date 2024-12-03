@@ -1,0 +1,12 @@
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\bin\Debug\net8.0\Entity.Layer.deps.json
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\bin\Debug\net8.0\Entity.Layer.dll
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\bin\Debug\net8.0\Entity.Layer.pdb
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\obj\Debug\net8.0\Entity.Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\obj\Debug\net8.0\Entity.Layer.AssemblyInfoInputs.cache
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\obj\Debug\net8.0\Entity.Layer.AssemblyInfo.cs
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\obj\Debug\net8.0\Entity.Layer.csproj.CoreCompileInputs.cache
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\obj\Debug\net8.0\Entity.Layer.sourcelink.json
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\obj\Debug\net8.0\Entity.Layer.dll
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\obj\Debug\net8.0\refint\Entity.Layer.dll
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\obj\Debug\net8.0\Entity.Layer.pdb
+D:\GitHub test\CRM_CrocuSoftTask\Entity.Layer\obj\Debug\net8.0\ref\Entity.Layer.dll
