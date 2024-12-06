@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Entity.Layer.Entity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +16,10 @@ namespace DataAccess.Layer
         {
             
         }
+
+        public DbSet<Member> Members { get; set; }
+        public DbSet<Reaport> Reaports { get; set; }
+        public DbSet<Team> Teams { get; set; }
+
     }
 }

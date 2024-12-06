@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Layer.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20241203082930_CreateDatabaseTableRationship")]
-    partial class CreateDatabaseTableRationship
+    [Migration("20241205151623_CreateDatabase")]
+    partial class CreateDatabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

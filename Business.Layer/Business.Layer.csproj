@@ -7,13 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concret\" />
-    <Folder Include="Abstract\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DataAccess.Layer\DataAccess.Layer.csproj" />
     <ProjectReference Include="..\Entity.Layer\Entity.Layer.csproj" />
+    <ProjectReference Include="..\Shred.Layer\Shred.Layer.csproj" />
   </ItemGroup>
 
 </Project>

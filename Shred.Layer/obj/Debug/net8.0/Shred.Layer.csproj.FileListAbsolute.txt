@@ -1,0 +1,12 @@
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\bin\Debug\net8.0\Shred.Layer.deps.json
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\bin\Debug\net8.0\Shred.Layer.dll
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\bin\Debug\net8.0\Shred.Layer.pdb
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\obj\Debug\net8.0\Shred.Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\obj\Debug\net8.0\Shred.Layer.AssemblyInfoInputs.cache
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\obj\Debug\net8.0\Shred.Layer.AssemblyInfo.cs
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\obj\Debug\net8.0\Shred.Layer.csproj.CoreCompileInputs.cache
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\obj\Debug\net8.0\Shred.Layer.sourcelink.json
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\obj\Debug\net8.0\Shred.Layer.dll
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\obj\Debug\net8.0\refint\Shred.Layer.dll
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\obj\Debug\net8.0\Shred.Layer.pdb
+D:\GitHub test\CRM_CrocuSoftTask\Shred.Layer\obj\Debug\net8.0\ref\Shred.Layer.dll

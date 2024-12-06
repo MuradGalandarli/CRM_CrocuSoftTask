@@ -9,7 +9,8 @@
       "Business.Layer/1.0.0": {
         "dependencies": {
           "DataAccess.Layer": "1.0.0",
-          "Entity.Layer": "1.0.0"
+          "Entity.Layer": "1.0.0",
+          "Shred.Layer": "1.0.0"
         },
         "runtime": {
           "Business.Layer.dll": {}
@@ -630,6 +631,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Shred.Layer/1.0.0": {
+        "runtime": {
+          "Shred.Layer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1058,6 +1067,11 @@
       "sha512": ""
     },
     "Entity.Layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shred.Layer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
