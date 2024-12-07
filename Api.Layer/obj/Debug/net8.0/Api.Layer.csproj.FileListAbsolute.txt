@@ -149,3 +149,6 @@ D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\Api.Layer.staticweba
 D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\obj\Debug\net8.0\staticwebassets\msbuild.Api.Layer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\NLog.dll
+D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\NLog.Web.AspNetCore.dll

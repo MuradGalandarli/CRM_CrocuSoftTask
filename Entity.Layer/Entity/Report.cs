@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace Entity.Layer.Entity
 {
-    public class Reaport
+    public class Report
     {
         [Key]
         public int ReaportId { get; set; }
         public string? Title { get; set; }
         public string? Content { get; set; }
+        public bool IsActive { get; set; } = true;
         public Project? Project { get; set; }
         public int ProjectId { get; set; }
     }

@@ -32,6 +32,228 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Api.Layer.Controllers.Admin.ProjectController",
+    "Method": "AddReport",
+    "RelativePath": "api/Project/AddProject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "project",
+        "Type": "Entity.Layer.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.Admin.ProjectController",
+    "Method": "DeleteProject",
+    "RelativePath": "api/Project/DeleteProject/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.Admin.ProjectController",
+    "Method": "UpdateProject",
+    "RelativePath": "api/Project/UpdateProject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "project",
+        "Type": "Entity.Layer.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.User.ProjectUIController",
+    "Method": "GetAllProject",
+    "RelativePath": "api/ProjectUI/GetAllProject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.User.ProjectUIController",
+    "Method": "GetByIdProject",
+    "RelativePath": "api/ProjectUI/GetByIdProject/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.Admin.ReportController",
+    "Method": "AddReport",
+    "RelativePath": "api/Report/AddReport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "report",
+        "Type": "Entity.Layer.Entity.Report",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.Admin.ReportController",
+    "Method": "DeleteReport",
+    "RelativePath": "api/Report/DeleteReport/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.Admin.ReportController",
+    "Method": "UpdateReport",
+    "RelativePath": "api/Report/UpdateReport",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "report",
+        "Type": "Entity.Layer.Entity.Report",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.User.ReportUIController",
+    "Method": "GetAllReport",
+    "RelativePath": "api/ReportUI/GetAllReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.User.ReportUIController",
+    "Method": "GetByIdReport",
+    "RelativePath": "api/ReportUI/GetByIdReport/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.Admin.TeamController",
+    "Method": "AddTeam",
+    "RelativePath": "api/Team/AddTeam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "team",
+        "Type": "Entity.Layer.Entity.Team",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.Admin.TeamController",
+    "Method": "DeleteTeam",
+    "RelativePath": "api/Team/DeleteTeam/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.Admin.TeamController",
+    "Method": "UpdateTeam",
+    "RelativePath": "api/Team/UpdateTeam",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "team",
+        "Type": "Entity.Layer.Entity.Team",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.User.TeamUIController",
+    "Method": "GetAllTeam",
+    "RelativePath": "api/TeamUI/GetAllTeam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Layer.Controllers.User.TeamUIController",
+    "Method": "GetByIdTeam",
+    "RelativePath": "api/TeamUI/GetByIdTeam/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Api.Layer.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

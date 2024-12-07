@@ -2,10 +2,13 @@
 using Business.Layer.Abstract;
 using Business.Layer.Concret;
 using DataAccess.Layer;
+using DataAccess.Layer.Abstract;
+using DataAccess.Layer.Concret;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using NLog.Extensions.Logging;
 using Shred.Layer.AuthModel;
 using System.Text;
 
@@ -30,6 +33,15 @@ namespace Api.Layer
         
             builder.Services.AddScoped<IAuthService,AuthManager>();
 
+            builder.Services.AddSingleton<ILoggerProvider, NLogLoggerProvider>();
+
+            builder.Services.AddScoped<IProject, EFRepositoryProject>();
+            builder.Services.AddScoped<IProjectService, ProjectManager>();
+            builder.Services.AddScoped<IReport, EFRepositoryReport>();
+            builder.Services.AddScoped<IReportService, ReportManager>();
+            builder.Services.AddScoped<ITeam, EFRepositoryTeam>();
+            builder.Services.AddScoped<ITeamService, TeamManager>();
+            
 
 
 
@@ -37,7 +49,7 @@ namespace Api.Layer
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddIdentity<IdentityUser,IdentityRole>(options =>
-                options.SignIn.RequireConfirmedAccount = true)
+                 options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationContext>();
 
 

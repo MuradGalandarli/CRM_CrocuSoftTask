@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Layer.Abstract
+namespace Business.Layer.Abstract
 {
-    public interface IMember:IGeneric<Member>
+    public interface IReportService:IGenericService<Report>
     {
     }
 }

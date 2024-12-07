@@ -1,4 +1,5 @@
-﻿using Entity.Layer.Entity;
+﻿using Entity.Layer;
+using Entity.Layer.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Layer.Abstract
 {
-    public interface IReaport:IGeneric<Reaport>
+    public interface IProject:IGeneric<Project>
     {
     }
 }

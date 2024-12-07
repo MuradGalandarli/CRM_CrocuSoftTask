@@ -14,5 +14,6 @@ namespace Entity.Layer.Entity
         public string? Name { get; set; }
         public Team? Team { get; set; }
         public int TeamId { get; set; }
+        public bool IsActive { get; set; } = true;
     }
 }
