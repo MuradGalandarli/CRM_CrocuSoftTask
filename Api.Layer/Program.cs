@@ -1,9 +1,13 @@
 
 using Business.Layer.Abstract;
 using Business.Layer.Concret;
+using Business.Layer.Validator;
 using DataAccess.Layer;
 using DataAccess.Layer.Abstract;
 using DataAccess.Layer.Concret;
+using DataTransferObject.RequestDto;
+using Entity.Layer;
+using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -41,9 +45,9 @@ namespace Api.Layer
             builder.Services.AddScoped<IReportService, ReportManager>();
             builder.Services.AddScoped<ITeam, EFRepositoryTeam>();
             builder.Services.AddScoped<ITeamService, TeamManager>();
+
             
-
-
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             builder.Services.AddDbContext<ApplicationContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -87,6 +91,10 @@ namespace Api.Layer
          
 
             builder.Services.AddControllers();
+
+            builder.Services.AddScoped<IValidator<RequestProject>, ProjectValidator>();
+            builder.Services.AddScoped<IValidator<RequestTeam>, TeamValidator>();
+            builder.Services.AddScoped<IValidator<RequestReport>, ReportValidator>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

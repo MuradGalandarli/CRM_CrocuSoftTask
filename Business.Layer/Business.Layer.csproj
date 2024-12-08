@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DataAccess.Layer\DataAccess.Layer.csproj" />
+    <ProjectReference Include="..\DataTransferObject\DataTransferObject.csproj" />
     <ProjectReference Include="..\Entity.Layer\Entity.Layer.csproj" />
     <ProjectReference Include="..\Shred.Layer\Shred.Layer.csproj" />
   </ItemGroup>

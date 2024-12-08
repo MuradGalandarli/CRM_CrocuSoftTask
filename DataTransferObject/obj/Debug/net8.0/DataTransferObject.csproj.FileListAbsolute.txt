@@ -1,0 +1,16 @@
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\bin\Debug\net8.0\DataTransferObject.deps.json
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\bin\Debug\net8.0\DataTransferObject.dll
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\bin\Debug\net8.0\DataTransferObject.pdb
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\bin\Debug\net8.0\Entity.Layer.dll
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\bin\Debug\net8.0\Entity.Layer.pdb
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\DataTransferObject.csproj.AssemblyReference.cache
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\DataTransferObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\DataTransferObject.AssemblyInfoInputs.cache
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\DataTransferObject.AssemblyInfo.cs
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\DataTransferObject.csproj.CoreCompileInputs.cache
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\DataTransferObject.sourcelink.json
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\DataTran.832C1324.Up2Date
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\DataTransferObject.dll
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\refint\DataTransferObject.dll
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\DataTransferObject.pdb
+D:\GitHub test\CRM_CrocuSoftTask\DataTransferObject\obj\Debug\net8.0\ref\DataTransferObject.dll

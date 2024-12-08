@@ -41,7 +41,7 @@
     "Parameters": [
       {
         "Name": "project",
-        "Type": "Entity.Layer.Project",
+        "Type": "DataTransferObject.RequestDto.RequestProject",
         "IsRequired": true
       }
     ],
@@ -73,7 +73,7 @@
     "Parameters": [
       {
         "Name": "project",
-        "Type": "Entity.Layer.Project",
+        "Type": "DataTransferObject.RequestDto.RequestProject",
         "IsRequired": true
       }
     ],
@@ -115,7 +115,7 @@
     "Parameters": [
       {
         "Name": "report",
-        "Type": "Entity.Layer.Entity.Report",
+        "Type": "DataTransferObject.RequestDto.RequestReport",
         "IsRequired": true
       }
     ],
@@ -147,7 +147,7 @@
     "Parameters": [
       {
         "Name": "report",
-        "Type": "Entity.Layer.Entity.Report",
+        "Type": "DataTransferObject.RequestDto.RequestReport",
         "IsRequired": true
       }
     ],
@@ -189,7 +189,7 @@
     "Parameters": [
       {
         "Name": "team",
-        "Type": "Entity.Layer.Entity.Team",
+        "Type": "DataTransferObject.RequestDto.RequestTeam",
         "IsRequired": true
       }
     ],
@@ -221,7 +221,7 @@
     "Parameters": [
       {
         "Name": "team",
-        "Type": "Entity.Layer.Entity.Team",
+        "Type": "DataTransferObject.RequestDto.RequestTeam",
         "IsRequired": true
       }
     ],

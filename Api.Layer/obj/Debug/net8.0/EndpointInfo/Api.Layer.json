@@ -76,17 +76,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/RequestProject"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/RequestProject"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/RequestProject"
               }
             }
           }
@@ -107,17 +107,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/RequestProject"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/RequestProject"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/RequestProject"
               }
             }
           }
@@ -196,17 +196,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Report"
+                "$ref": "#/components/schemas/RequestReport"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Report"
+                "$ref": "#/components/schemas/RequestReport"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Report"
+                "$ref": "#/components/schemas/RequestReport"
               }
             }
           }
@@ -227,17 +227,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Report"
+                "$ref": "#/components/schemas/RequestReport"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Report"
+                "$ref": "#/components/schemas/RequestReport"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Report"
+                "$ref": "#/components/schemas/RequestReport"
               }
             }
           }
@@ -316,17 +316,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/RequestTeam"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/RequestTeam"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/RequestTeam"
               }
             }
           }
@@ -347,17 +347,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/RequestTeam"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/RequestTeam"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/RequestTeam"
               }
             }
           }
@@ -531,70 +531,6 @@
         },
         "additionalProperties": false
       },
-      "Member": {
-        "type": "object",
-        "properties": {
-          "memberId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "team": {
-            "$ref": "#/components/schemas/Team"
-          },
-          "teamId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "isActive": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Project": {
-        "type": "object",
-        "properties": {
-          "projectId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "projectName": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "isActive": {
-            "type": "boolean"
-          },
-          "image": {
-            "type": "string",
-            "nullable": true
-          },
-          "team": {
-            "$ref": "#/components/schemas/Team"
-          },
-          "teamId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "reports": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Report"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "RegistrationModel": {
         "required": [
           "email",
@@ -619,7 +555,34 @@
         },
         "additionalProperties": false
       },
-      "Report": {
+      "RequestProject": {
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "projectName": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "image": {
+            "type": "string",
+            "nullable": true
+          },
+          "teamId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RequestReport": {
         "type": "object",
         "properties": {
           "reaportId": {
@@ -634,12 +597,6 @@
             "type": "string",
             "nullable": true
           },
-          "isActive": {
-            "type": "boolean"
-          },
-          "project": {
-            "$ref": "#/components/schemas/Project"
-          },
           "projectId": {
             "type": "integer",
             "format": "int32"
@@ -647,7 +604,7 @@
         },
         "additionalProperties": false
       },
-      "Team": {
+      "RequestTeam": {
         "type": "object",
         "properties": {
           "teamId": {
@@ -658,27 +615,10 @@
             "type": "string",
             "nullable": true
           },
-          "isActive": {
-            "type": "boolean"
-          },
           "teamMembers": {
             "type": "array",
             "items": {
               "type": "string"
-            },
-            "nullable": true
-          },
-          "member": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Member"
-            },
-            "nullable": true
-          },
-          "projects": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Project"
             },
             "nullable": true
           }

@@ -1,6 +1,10 @@
-﻿using Business.Layer.Abstract;
+﻿using AutoMapper;
+using Business.Layer.Abstract;
+using DataAccess.Layer.Concret;
+using DataTransferObject.RequestDto;
 using Entity.Layer;
 using Entity.Layer.Entity;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,23 +15,41 @@ namespace Api.Layer.Controllers.Admin
     public class TeamController : ControllerBase
     {
         private readonly ITeamService _teamService;
-        public TeamController(ITeamService _teamService)
+        private readonly IMapper _mapper;
+        private readonly IValidator<RequestTeam> _validator;
+        public TeamController(ITeamService _teamService,
+            IMapper mapper,
+            IValidator<RequestTeam> validator
+            )
         {
             this._teamService = _teamService;
+            _mapper = mapper;  
+            _validator = validator; 
         }
         [HttpPost("AddTeam")]
-        public async Task<IActionResult> AddTeam(Team team)
+        public async Task<IActionResult> AddTeam(RequestTeam team)
         {
-            bool IsSuccess = await _teamService.Add(team);
-
-            return IsSuccess ? Ok(IsSuccess) : BadRequest(IsSuccess);
+            var validation = _validator.Validate(team);
+            if (validation.IsValid)
+            {
+                var mapTeam = _mapper.Map<Team>(team);
+                bool IsSuccess = await _teamService.Add(mapTeam);
+                return IsSuccess ? Ok(IsSuccess) : BadRequest(IsSuccess);
+            }
+            return BadRequest();
         }
 
         [HttpPut("UpdateTeam")]
-        public async Task<IActionResult> UpdateTeam(Team team)
+        public async Task<IActionResult> UpdateTeam(RequestTeam team)
         {
-            bool IsSuccess = await _teamService.Update(team);
-            return IsSuccess ? Ok(IsSuccess) : BadRequest(IsSuccess);
+            var validation = _validator.Validate(team);
+            if (validation.IsValid)
+            {
+                var mapTeam = _mapper.Map<Team>(team);
+                bool IsSuccess = await _teamService.Update(mapTeam);
+                return IsSuccess ? Ok(IsSuccess) : BadRequest(IsSuccess);
+            }
+            return BadRequest();    
         }
 
         [HttpGet("DeleteTeam/{id}")]

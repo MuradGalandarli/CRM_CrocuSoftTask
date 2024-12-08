@@ -18,3 +18,5 @@ D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\obj\Debug\net8.0\Business.Layer.
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\obj\Debug\net8.0\refint\Business.Layer.dll
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\obj\Debug\net8.0\Business.Layer.pdb
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\obj\Debug\net8.0\ref\Business.Layer.dll
+D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\DataTransferObject.dll
+D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\DataTransferObject.pdb

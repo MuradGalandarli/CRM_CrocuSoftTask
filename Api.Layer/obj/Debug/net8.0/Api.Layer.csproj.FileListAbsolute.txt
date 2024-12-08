@@ -152,3 +152,9 @@ D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\obj\Debug\net8.0\staticwebassets.upTo
 D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\NLog.dll
 D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\NLog.Extensions.Logging.dll
 D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\AutoMapper.dll
+D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\FluentValidation.dll
+D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\DataTransferObject.dll
+D:\GitHub test\CRM_CrocuSoftTask\Api.Layer\bin\Debug\net8.0\DataTransferObject.pdb
