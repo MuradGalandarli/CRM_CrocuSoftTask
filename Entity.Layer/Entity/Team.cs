@@ -17,7 +17,7 @@ namespace Entity.Layer.Entity
         [NotMapped]
         public List<string>? TeamMembers { get; set; } = new List<string>();
         public List<Member>? Member { get; set; }
-        public List<Project>? Projects { get; set; } 
-
+        public List<Project>? Projects { get; set; }
+       
     }
 }

@@ -1,17 +1,18 @@
 ﻿using AutoMapper;
 using Business.Layer.Abstract;
+using Business.Layer.Helper;
 using DataTransferObject.RequestDto;
 using Entity.Layer;
-using Entity.Layer.Entity;
 using FluentValidation;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace Api.Layer.Controllers.Admin
 {
+  
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Admin")]
     public class ProjectController : ControllerBase
     {
         private readonly IProjectService _projectService;
@@ -23,42 +24,70 @@ namespace Api.Layer.Controllers.Admin
         {
             this._projectService = _projectService;
             _mapper = mapper;
-            _validator = validator; 
+            _validator = validator;
         }
+
         [HttpPost("AddProject")]
         public async Task<IActionResult> AddReport(RequestProject project)
-        { 
+        {
+            if (!User.Identity.IsAuthenticated)
+            {
+                return Unauthorized(ErrorManager.ErrorHandling(401));
+            }
+
             var validation = _validator.Validate(project);
             if (validation.IsValid)
             {
                 var mapProject = _mapper.Map<Project>(project);
-                bool IsSuccess = await _projectService.Add(mapProject);
-                return IsSuccess ? Ok(IsSuccess) : BadRequest(IsSuccess);
+                (bool IsSuccess, int statusCode) result = await _projectService.Add(mapProject);
+                if (result.IsSuccess)
+                {
+                    return Ok(result.IsSuccess);
+                }
+                var data = ErrorManager.ErrorHandling(result.statusCode);
+                return (data.StatusCode == 404) ? NotFound(data) : StatusCode(data.StatusCode, data.Error);
             }
-          
-              return BadRequest();
-            
+            return BadRequest(ErrorManager.ErrorHandling(400, validation.Errors.Select(x => x.PropertyName).ToList()));
         }
 
         [HttpPut("UpdateProject")]
         public async Task<IActionResult> UpdateProject(RequestProject project)
         {
+            if (!User.Identity.IsAuthenticated)
+            {
+                return Unauthorized(ErrorManager.ErrorHandling(401));
+            }
+
             var validation = _validator.Validate(project);
             if (validation.IsValid)
             {
-
                 var mapProject = _mapper.Map<Project>(project);
-                bool IsSuccess = await _projectService.Update(mapProject);
-                return IsSuccess ? Ok(IsSuccess) : BadRequest(IsSuccess);
+                (bool IsSuccess, int statusCode) result = await _projectService.Update(mapProject);
+                if (result.IsSuccess)
+                {
+                    return Ok(result.IsSuccess);
+                }
+                var error = ErrorManager.ErrorHandling(result.statusCode);
+                return (error.StatusCode == 404) ? NotFound(error) : StatusCode(error.StatusCode, error);
             }
-            return BadRequest();
+            return BadRequest(ErrorManager.ErrorHandling(400, validation.Errors.Select(x => x.PropertyName).ToList()));
         }
 
-        [HttpGet("DeleteProject/{id}")]
+        [HttpDelete("DeleteProject/{id}")]
         public async Task<IActionResult> DeleteProject(int id)
         {
-            bool IsSuccess = await _projectService.Delete(id);
-            return IsSuccess ? Ok(IsSuccess) : BadRequest(IsSuccess);
+            if (!User.Identity.IsAuthenticated)
+            {
+                return Unauthorized(ErrorManager.ErrorHandling(401));
+            }
+            (bool IsSuccess, int statusCode) result = await _projectService.Delete(id);
+            if (result.IsSuccess)
+            {
+                return Ok(result.IsSuccess);
+            }
+            var data = ErrorManager.ErrorHandling(result.statusCode);
+            return (data.StatusCode == 404) ? NotFound(data) : StatusCode(data.StatusCode, data.Error);
         }
+
     }
 }

@@ -2,9 +2,11 @@ D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\Business.Layer.
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\Business.Layer.dll
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\Business.Layer.pdb
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\DataAccess.Layer.dll
+D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\DataTransferObject.dll
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\Entity.Layer.dll
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\Shred.Layer.dll
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\DataAccess.Layer.pdb
+D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\DataTransferObject.pdb
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\Entity.Layer.pdb
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\Shred.Layer.pdb
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\obj\Debug\net8.0\Business.Layer.csproj.AssemblyReference.cache
@@ -18,5 +20,3 @@ D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\obj\Debug\net8.0\Business.Layer.
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\obj\Debug\net8.0\refint\Business.Layer.dll
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\obj\Debug\net8.0\Business.Layer.pdb
 D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\obj\Debug\net8.0\ref\Business.Layer.dll
-D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\DataTransferObject.dll
-D:\GitHub test\CRM_CrocuSoftTask\Business.Layer\bin\Debug\net8.0\DataTransferObject.pdb

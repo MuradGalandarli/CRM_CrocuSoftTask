@@ -51,7 +51,7 @@
     "ContainingType": "Api.Layer.Controllers.Admin.ProjectController",
     "Method": "DeleteProject",
     "RelativePath": "api/Project/DeleteProject/{id}",
-    "HttpMethod": "GET",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -125,7 +125,7 @@
     "ContainingType": "Api.Layer.Controllers.Admin.ReportController",
     "Method": "DeleteReport",
     "RelativePath": "api/Report/DeleteReport/{id}",
-    "HttpMethod": "GET",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -199,7 +199,7 @@
     "ContainingType": "Api.Layer.Controllers.Admin.TeamController",
     "Method": "DeleteTeam",
     "RelativePath": "api/Team/DeleteTeam/{id}",
-    "HttpMethod": "GET",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

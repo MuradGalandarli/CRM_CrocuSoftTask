@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Layer.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20241207081913_CreateDatabase")]
-    partial class CreateDatabase
+    [Migration("20241212085120_deleteStatusCode")]
+    partial class deleteStatusCode
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

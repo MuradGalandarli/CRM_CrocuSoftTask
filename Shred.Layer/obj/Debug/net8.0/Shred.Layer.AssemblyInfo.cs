@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shred.Layer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ecdb6af03b3b4f43e74ce29f40dcbe67f4d85ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e481745fb01a02156e0501fc7270a1f9f515ccf5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shred.Layer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shred.Layer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

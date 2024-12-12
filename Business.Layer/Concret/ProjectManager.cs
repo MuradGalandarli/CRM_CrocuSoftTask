@@ -17,31 +17,31 @@ namespace Business.Layer.Concret
         {
             _project = project;
         }
-        public async Task<bool> Add(Project t)
+        public async Task<(bool, int StatusCode)> Add(Project t)
         {
             var IsSuccess = await _project.Add(t);
             return IsSuccess;
         }
 
-        public async Task<bool> Delete(int id)
+        public async Task<(bool, int StatusCode)> Delete(int id)
         {
             var IsSuccess = await _project.Delete(id);
             return IsSuccess;
         }
 
-        public async Task<List<Project>> GetAll()
+        public async Task<(List<Project>, int StatusCode)> GetAll()
         {
             var data = await _project.GetAll();
             return data;
         }
 
-        public async Task<Project> GetById(int id)
+        public async Task<(Project, int StatusCode)> GetById(int id)
         {
             var data = await _project.GetById(id);
             return data;
         }
 
-        public async Task<bool> Update(Project t)
+        public async Task<(bool, int StatusCode)> Update(Project t)
         {
             var IsSuccess = await _project.Update(t);
             return IsSuccess;

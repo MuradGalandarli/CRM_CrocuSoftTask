@@ -1,12 +1,11 @@
-
 using Business.Layer.Abstract;
 using Business.Layer.Concret;
 using Business.Layer.Validator;
 using DataAccess.Layer;
 using DataAccess.Layer.Abstract;
 using DataAccess.Layer.Concret;
+using DataTransferObject.DtoProfile;
 using DataTransferObject.RequestDto;
-using Entity.Layer;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -23,19 +22,11 @@ namespace Api.Layer
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            /*
-                        builder.Services.AddDbContext<ApplicationContext>(options =>
-                        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-                        builder.Services.AddDefaultIdentity<IdentityUser>(options =>
-                options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationContext>();
-            */
+            var jwt = builder.Configuration.GetSection("JWT").Get<JWT>();
+            builder.Services.Configure<JWT>(builder.Configuration.GetSection("JWT"));
 
-
-           var jwt = builder.Configuration.GetSection("JWT").Get<JWT>();
-        
-            builder.Services.AddScoped<IAuthService,AuthManager>();
+            builder.Services.AddScoped<IAuthService, AuthManager>();
 
             builder.Services.AddSingleton<ILoggerProvider, NLogLoggerProvider>();
 
@@ -46,33 +37,23 @@ namespace Api.Layer
             builder.Services.AddScoped<ITeam, EFRepositoryTeam>();
             builder.Services.AddScoped<ITeamService, TeamManager>();
 
-            
-            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
+            builder.Services.AddAutoMapper(typeof(DriveProfile).Assembly);
+           
             builder.Services.AddDbContext<ApplicationContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.AddIdentity<IdentityUser,IdentityRole>(options =>
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
                  options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationContext>();
 
 
-
-          /*  builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
-
-            // For Identity  
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-                            .AddEntityFrameworkStores<ApplicationContext>()
-                            .AddDefaultTokenProviders();*/
-            // Adding Authentication  
-            builder.Services.AddAuthentication(options =>
+                builder.Services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
             })
 
-                        // Adding Jwt Bearer  
                         .AddJwtBearer(options =>
                         {
                             options.SaveToken = true;
@@ -88,16 +69,29 @@ namespace Api.Layer
                             };
                         });
 
-         
 
             builder.Services.AddControllers();
 
             builder.Services.AddScoped<IValidator<RequestProject>, ProjectValidator>();
             builder.Services.AddScoped<IValidator<RequestTeam>, TeamValidator>();
             builder.Services.AddScoped<IValidator<RequestReport>, ReportValidator>();
+            builder.Services.AddScoped<IValidator<RegistrationModel>,RegistrationModelValidator>();
+            builder.Services.AddScoped<IValidator<LoginModel>, LoginModelValidator>();
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    policy =>
+                    {
+                        policy.AllowAnyOrigin()
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
+            });
 
             var app = builder.Build();
 
@@ -107,7 +101,7 @@ namespace Api.Layer
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();

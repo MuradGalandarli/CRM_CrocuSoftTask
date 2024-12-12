@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,7 +23,7 @@ namespace DataAccess.Layer.Concret
             _logger = logger;
         }
 
-        public async Task<bool> Add(Team t)
+        public async Task<(bool, int StatusCode)> Add(Team t)
         {
             try
             {
@@ -38,90 +39,105 @@ namespace DataAccess.Layer.Concret
                     }
                 }
                 await _context.SaveChangesAsync();
-                return true;
+                return (true, 200);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                return false;
+                return (false, 500);
             }
 
         }
 
-        public async Task<bool> Delete(int id)
+        public async Task<(bool, int StatusCode)> Delete(int id)
         {
             try
             {
                 var data = await GetById(id);
-                data.IsActive = false;
+                if (data.Item1 != null)
+                {
+                    data.Item1.IsActive = false;
 
-                if (data.Member != null)
-                {
-                    foreach (var member in data.Member)
+                    if (data.Item1.Member != null)
                     {
-                        member.IsActive = false;
-                    }
-                }
-                else
-                {
-                    return false;
-                }
-
-                if (data.Projects != null)
-                {
-                    int projectId = 0;
-                    foreach (var project in data.Projects)
-                    {
-                        projectId = project.ProjectId;
-                        project.IsActive = false;
-                    }
-                    if (projectId > 0)
-                    {
-                        var Report = await _context.Reaports.Where(x => x.IsActive && x.ProjectId == projectId).ToListAsync();
-                        foreach (var report in Report)
+                        foreach (var member in data.Item1.Member)
                         {
-                            report.IsActive = false;
+                            member.IsActive = false;
                         }
                     }
-                }
 
-                await _context.SaveChangesAsync();
-                return true;
+
+                    if (data.Item1.Projects != null)
+                    {
+                        int projectId = 0;
+                        foreach (var project in data.Item1.Projects)
+                        {
+                            projectId = project.ProjectId;
+                            project.IsActive = false;
+                        }
+                        if (projectId > 0)
+                        {
+                            var Report = await _context.Reaports.Where(x => x.IsActive && x.ProjectId == projectId).ToListAsync();
+                            foreach (var report in Report)
+                            {
+                                report.IsActive = false;
+                            }
+                        }
+                    }
+
+                    await _context.SaveChangesAsync();
+                    return (true, 200);
+                }
+                return (false, 404);
+            }
+
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return (false, 500);
+            }
+        }
+
+        public async Task<(List<Team>, int StatusCode)> GetAll()
+        {
+
+            try
+
+            {
+                var fullTeam = await _context.Teams.Where(p => p.IsActive).Include(x => x.Member.Where(x => x.IsActive)).ToListAsync();
+
+                if (fullTeam.Count > 0)
+                {
+                    foreach (var item in fullTeam)
+                    {
+                        foreach (var member in item.Member)
+                        {
+                            if (item.TeamId == member.TeamId)
+                            {
+                                item.TeamMembers.Add(member.Name);
+                            }
+                        }
+                    }
+                    return (fullTeam, 200);
+                }
+             return (new List<Team> { }, 404);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                return false;
+                return (new List<Team>(), 500);
             }
+
+           
+
         }
 
-        public async Task<List<Team>> GetAll()
-        {
-            var fullTiem = await _context.Teams.Where(p => p.IsActive).Include(x => x.Member.Where(x => x.IsActive)).ToListAsync();
-
-            if (fullTiem != null)
-            {
-                foreach (var item in fullTiem)
-                {
-                    foreach (var member in item.Member)
-                    {
-                        if (item.TeamId == member.TeamId)
-                        {
-                            item.TeamMembers.Add(member.Name);
-                        }
-                    }
-                }
-            }
-          
-            return fullTiem;
-        }
-
-        public async Task<Team> GetById(int id)
+        public async Task<(Team, int StatusCode)> GetById(int id)
         {
             try
             {
-                var data = _context.Teams.Include(s => s.Member).
-                    Include(x=>x.Projects.Where(x=>x.IsActive)).FirstOrDefault(x => x.TeamId == id && x.IsActive);
+                var data = _context.Teams.Include(s => s.Member.Where(x=>x.IsActive)).
+                    Include(x => x.Projects.Where(x => x.IsActive)).FirstOrDefault(x => x.TeamId == id && x.IsActive);
                 if (data != null && data.Member != null)
                 {
                     foreach (var team in data.Member)
@@ -130,59 +146,65 @@ namespace DataAccess.Layer.Concret
                     }
                 }
 
-                return data != null ? data : new Team { };
+                return data != null ? (data,200) : (new Team { },404);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                return new Team { };
+                return (new Team { },500);
             }
         }
 
-        public async Task<bool> Update(Team t)
+        public async Task<(bool, int StatusCode)> Update(Team t)
         {
-           
             try
             {
-       
-                var existingMembers = await _context.Members
-                    .Where(x => x.IsActive && x.TeamId == t.TeamId)
-                    .ToListAsync();
-
-                foreach (var member in existingMembers)
+               var findTeam = await GetById(t.TeamId);
+                if (findTeam.Item1 != null)
                 {
-                  
-                    if (!t.TeamMembers.Contains(member.Name))
+                    var existingMembers = await _context.Members
+                        .Where(x => x.IsActive && x.TeamId == t.TeamId)
+                        .ToListAsync();
+                    if (existingMembers != null)
                     {
-                        member.IsActive = false;
-                    }
-                }
-
-                foreach (var name in t.TeamMembers)
-                {
-                    
-                    if (!existingMembers.Any(x => x.Name == name))
-                    {
-                        _context.Members.Add(new Member
+                        foreach (var member in existingMembers)
                         {
-                            TeamId = t.TeamId,
-                            Name = name,
-                            IsActive = true
-                        });
+
+                            if (!t.TeamMembers.Contains(member.Name))
+                            {
+                                member.IsActive = false;
+                            }
+                        }
+
+                        foreach (var name in t.TeamMembers)
+                        {
+
+                            if (!existingMembers.Any(x => x.Name == name))
+                            {
+                                _context.Members.Add(new Member
+                                {
+                                    TeamId = t.TeamId,
+                                    Name = name,
+                                    IsActive = true
+                                });
+                            }
+                        }
+
+                        findTeam.Item1.Name = t.Name; 
+                        
+
+                        await _context.SaveChangesAsync();
+
+                        return (true, 200);
                     }
                 }
 
-                _context.Teams.Update(t);
-
-                await _context.SaveChangesAsync();
-
-                return true;
-            
+                return (true, 404);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                return false;
+                return (false,500);
             }
         }
     }

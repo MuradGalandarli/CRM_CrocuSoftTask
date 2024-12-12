@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DataAccess.Layer.Migrations
 {
     /// <inheritdoc />
-    public partial class CreateDatabase : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -57,7 +57,8 @@ namespace DataAccess.Layer.Migrations
                     TeamId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    IsActive = table.Column<bool>(type: "bit", nullable: false)
+                    IsActive = table.Column<bool>(type: "bit", nullable: false),
+                    StatusCode = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -178,7 +179,8 @@ namespace DataAccess.Layer.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TeamId = table.Column<int>(type: "int", nullable: false),
-                    IsActive = table.Column<bool>(type: "bit", nullable: false)
+                    IsActive = table.Column<bool>(type: "bit", nullable: false),
+                    StatusCode = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -201,7 +203,8 @@ namespace DataAccess.Layer.Migrations
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     Image = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    TeamId = table.Column<int>(type: "int", nullable: true)
+                    TeamId = table.Column<int>(type: "int", nullable: true),
+                    StatusCode = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -222,7 +225,8 @@ namespace DataAccess.Layer.Migrations
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Content = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
-                    ProjectId = table.Column<int>(type: "int", nullable: false)
+                    ProjectId = table.Column<int>(type: "int", nullable: false),
+                    StatusCode = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

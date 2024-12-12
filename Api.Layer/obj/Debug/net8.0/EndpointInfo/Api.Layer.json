@@ -130,7 +130,7 @@
       }
     },
     "/api/Project/DeleteProject/{id}": {
-      "get": {
+      "delete": {
         "tags": [
           "Project"
         ],
@@ -250,7 +250,7 @@
       }
     },
     "/api/Report/DeleteReport/{id}": {
-      "get": {
+      "delete": {
         "tags": [
           "Report"
         ],
@@ -370,7 +370,7 @@
       }
     },
     "/api/Team/DeleteTeam/{id}": {
-      "get": {
+      "delete": {
         "tags": [
           "Team"
         ],
@@ -514,43 +514,29 @@
         "format": "int32"
       },
       "LoginModel": {
-        "required": [
-          "email",
-          "password"
-        ],
         "type": "object",
         "properties": {
           "email": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "password": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
       },
       "RegistrationModel": {
-        "required": [
-          "email",
-          "password",
-          "username"
-        ],
         "type": "object",
         "properties": {
-          "username": {
-            "minLength": 1,
-            "type": "string"
-          },
           "email": {
-            "minLength": 1,
             "type": "string",
-            "format": "email"
+            "nullable": true
           },
           "password": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

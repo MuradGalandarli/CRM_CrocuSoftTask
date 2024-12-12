@@ -11,7 +11,7 @@ namespace DataTransferObject.RequestDto
 {
     public class RequestTeam
     {
-        public int TeamId { get; set; }
+        public int TeamId { get; set; }     
         public string? Name { get; set; }
         // public bool IsActive { get; set; } = true;
         [NotMapped]

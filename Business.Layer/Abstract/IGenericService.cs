@@ -8,11 +8,11 @@ namespace Business.Layer.Abstract
 {
     public interface IGenericService<T> where T : class
     {
-        public Task<T> GetById(int id);
-        public Task<List<T>> GetAll();
-        public Task<bool> Add(T t);
-        public Task<bool> Update(T t);
-        public Task<bool> Delete(int id);
+        public Task<(T, int StatusCode)> GetById(int id);
+        public Task<(List<T>,int StatusCode)> GetAll();
+        public Task<(bool, int StatusCode)> Add(T t);
+        public Task<(bool, int StatusCode)> Update(T t);
+        public Task<(bool, int StatusCode)> Delete(int id);
 
     }
 }

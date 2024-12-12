@@ -3,136 +3,168 @@
   "WorkspaceRootPath": "D:\\GitHub test\\CRM_CrocuSoftTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\requestdto\\requestteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\requestdto\\requestteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\validator\\projectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\validator\\projectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\validator\\reportvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\validator\\reportvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\admin\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\admin\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\concret\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\concret\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\concret\\efrepositoryproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\concret\\efrepositoryproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\requestdto\\requestreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\requestdto\\requestreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\requestdto\\requestproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\requestdto\\requestproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\responsedto\\responseteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\responsedto\\responseteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\responsedto\\responsereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\responsedto\\responsereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\responsedto\\responseproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\responsedto\\responseproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\admin\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\admin\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\admin\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\admin\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\user\\projectuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\user\\projectuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\admin\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\admin\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\user\\reportuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\user\\reportuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\user\\teamuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\user\\teamuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\dtoprofile\\driveprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\dtoprofile\\driveprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\entity\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\entity\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\datatransferobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\datatransferobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\business.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\business.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\concret\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\concret\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\concret\\efrepositoryteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\concret\\efrepositoryteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\concret\\efrepositoryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\concret\\efrepositoryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\entity\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\entity\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\concret\\teammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\concret\\teammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\authmodel\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\authmodel\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\entity\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\admin\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\admin\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\concret\\efrepositoryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\concret\\efrepositoryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|d:\\github test\\crm_crocusofttask\\entity.layer\\entity\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EE86956-5A04-4E7E-A7CC-BEA2E3B9325B}|Entity.Layer\\Entity.Layer.csproj|solutionrelative:entity.layer\\entity\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\concret\\reportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\concret\\reportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\admin\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\admin\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\user\\reportuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\user\\reportuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\concret\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\concret\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\user\\projectuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\user\\projectuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\concret\\teammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\concret\\teammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\responsedto\\responseteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\responsedto\\responseteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241212085120_deleteStatusCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess.Layer\\Migrations\\20241212085120_deleteStatusCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\helper\\errormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\helper\\errormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\user\\teamuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\user\\teamuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\abstract\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\abstract\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\dtoprofile\\driveprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\dtoprofile\\driveprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\responsedto\\responseproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\responsedto\\responseproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\requestdto\\requestproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\requestdto\\requestproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\authmodel\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\authmodel\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\abstract\\iproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\abstract\\iproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\helper\\objectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\helper\\objectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\authmodel\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\authmodel\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\authmodel\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\authmodel\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\error\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\error\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\validator\\projectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\validator\\projectvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\dataaccess.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\dataaccess.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\api.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\api.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\validator\\loginmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\validator\\loginmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\validator\\registrationmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\validator\\registrationmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\authmodel\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\authmodel\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\shred.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\shred.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\abstract\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,12 +175,40 @@
       "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\abstract\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\abstract\\igeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\abstract\\igeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\datatransferobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\datatransferobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\responsedto\\responsereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\responsedto\\responsereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\validator\\reportvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\validator\\reportvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\requestdto\\requestteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\requestdto\\requestteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|d:\\github test\\crm_crocusofttask\\datatransferobject\\requestdto\\requestreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B8F4994-673A-4D14-81F1-E3EFE279DDA3}|DataTransferObject\\DataTransferObject.csproj|solutionrelative:datatransferobject\\requestdto\\requestreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\business.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\business.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\abstract\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\abstract\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\abstract\\ireport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,48 +219,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess.Layer\\Migrations\\20241206085452_CreateIsActiveColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\authmodel\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\authmodel\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\abstract\\iteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\abstract\\iteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\concret\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\concret\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|d:\\github test\\crm_crocusofttask\\api.layer\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CFF8E1-5AAF-4A3D-81D9-684494D63A16}|Api.Layer\\Api.Layer.csproj|solutionrelative:api.layer\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\authmodel\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\authmodel\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\authmodel\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\authmodel\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|d:\\github test\\crm_crocusofttask\\business.layer\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE2E9F7-C757-4BFB-87B0-8B088C8C35D5}|Business.Layer\\Business.Layer.csproj|solutionrelative:business.layer\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|d:\\github test\\crm_crocusofttask\\shred.layer\\shred.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{54D5C4D3-481D-4E52-907A-DF767411905B}|Shred.Layer\\Shred.Layer.csproj|solutionrelative:shred.layer\\shred.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\dataaccess.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\dataaccess.layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241203082725_CreateDatabaseTableRationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -211,8 +231,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Business.Layer\\bin\\Debug\\net8.0\\Business.Layer.pdb||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\migrations\\20241207081913_createdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\migrations\\20241207081913_createdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|d:\\github test\\crm_crocusofttask\\dataaccess.layer\\migrations\\20241211131455_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D78C37F-24D4-4DAD-9D50-B277F602D91F}|DataAccess.Layer\\DataAccess.Layer.csproj|solutionrelative:dataaccess.layer\\migrations\\20241211131455_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -222,7 +242,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -233,17 +253,8 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProjectValidator.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\ProjectValidator.cs",
-              "RelativeDocumentMoniker": "Business.Layer\\Validator\\ProjectValidator.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\ProjectValidator.cs",
-              "RelativeToolTip": "Business.Layer\\Validator\\ProjectValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T07:41:17.464Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -253,109 +264,235 @@
               "RelativeDocumentMoniker": "Api.Layer\\Controllers\\Admin\\ProjectController.cs",
               "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Admin\\ProjectController.cs",
               "RelativeToolTip": "Api.Layer\\Controllers\\Admin\\ProjectController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAnwFkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T12:47:34.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Project.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Project.cs",
-              "RelativeDocumentMoniker": "Entity.Layer\\Project.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Project.cs",
-              "RelativeToolTip": "Entity.Layer\\Project.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA4AAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Program.cs",
+              "RelativeDocumentMoniker": "Api.Layer\\Program.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Program.cs",
+              "RelativeToolTip": "Api.Layer\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAArwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:01:21.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReportValidator.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\ReportValidator.cs",
-              "RelativeDocumentMoniker": "Business.Layer\\Validator\\ReportValidator.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\ReportValidator.cs",
-              "RelativeToolTip": "Business.Layer\\Validator\\ReportValidator.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T07:45:07.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RequestReport.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestReport.cs",
-              "RelativeDocumentMoniker": "DataTransferObject\\RequestDto\\RequestReport.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestReport.cs",
-              "RelativeToolTip": "DataTransferObject\\RequestDto\\RequestReport.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T15:18:32.55Z",
+              "WhenOpened": "2024-12-03T07:51:25.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Member.cs",
+              "RelativeDocumentMoniker": "Entity.Layer\\Entity\\Member.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Member.cs",
+              "RelativeToolTip": "Entity.Layer\\Entity\\Member.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:07:13.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\Auth\\AuthController.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Auth\\AuthController.cs",
+              "RelativeToolTip": "Api.Layer\\Controllers\\Auth\\AuthController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAArwDwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:07:16.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "EFRepositoryProject.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Concret\\EFRepositoryProject.cs",
               "RelativeDocumentMoniker": "DataAccess.Layer\\Concret\\EFRepositoryProject.cs",
               "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Concret\\EFRepositoryProject.cs",
               "RelativeToolTip": "DataAccess.Layer\\Concret\\EFRepositoryProject.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAArwCsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAnwCUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T15:41:37.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RequestTeam.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestTeam.cs",
-              "RelativeDocumentMoniker": "DataTransferObject\\RequestDto\\RequestTeam.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestTeam.cs",
-              "RelativeToolTip": "DataTransferObject\\RequestDto\\RequestTeam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T15:18:04.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RequestProject.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestProject.cs",
-              "RelativeDocumentMoniker": "DataTransferObject\\RequestDto\\RequestProject.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestProject.cs",
-              "RelativeToolTip": "DataTransferObject\\RequestDto\\RequestProject.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T15:17:02.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ProjectManager.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\ProjectManager.cs",
               "RelativeDocumentMoniker": "Business.Layer\\Concret\\ProjectManager.cs",
               "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\ProjectManager.cs",
               "RelativeToolTip": "Business.Layer\\Concret\\ProjectManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAewBcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAjwB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T12:11:56.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Project.cs",
+              "RelativeDocumentMoniker": "Entity.Layer\\Project.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Project.cs",
+              "RelativeToolTip": "Entity.Layer\\Project.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwBAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:01:21.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Team.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Team.cs",
+              "RelativeDocumentMoniker": "Entity.Layer\\Entity\\Team.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Team.cs",
+              "RelativeToolTip": "Entity.Layer\\Entity\\Team.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAASwBEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:01:00.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EFRepositoryTeam.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Concret\\EFRepositoryTeam.cs",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\Concret\\EFRepositoryTeam.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Concret\\EFRepositoryTeam.cs",
+              "RelativeToolTip": "DataAccess.Layer\\Concret\\EFRepositoryTeam.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAArwD8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:42:32.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Report.cs",
+              "RelativeDocumentMoniker": "Entity.Layer\\Entity\\Report.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Report.cs",
+              "RelativeToolTip": "Entity.Layer\\Entity\\Report.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:03:14.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Admin\\TeamController.cs",
+              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\Admin\\TeamController.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Admin\\TeamController.cs",
+              "RelativeToolTip": "Api.Layer\\Controllers\\Admin\\TeamController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAewCkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:48:05.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EFRepositoryReport.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Concret\\EFRepositoryReport.cs",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\Concret\\EFRepositoryReport.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Concret\\EFRepositoryReport.cs",
+              "RelativeToolTip": "DataAccess.Layer\\Concret\\EFRepositoryReport.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAnwDIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:49:38.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Admin\\ReportController.cs",
+              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\Admin\\ReportController.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Admin\\ReportController.cs",
+              "RelativeToolTip": "Api.Layer\\Controllers\\Admin\\ReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:48:42.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReportUIController.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\ReportUIController.cs",
+              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\User\\ReportUIController.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\ReportUIController.cs",
+              "RelativeToolTip": "Api.Layer\\Controllers\\User\\ReportUIController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAjwCQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:45:40.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportManager.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\ReportManager.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Concret\\ReportManager.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\ReportManager.cs",
+              "RelativeToolTip": "Business.Layer\\Concret\\ReportManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIA8wBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:13:01.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\AuthManager.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Concret\\AuthManager.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\AuthManager.cs",
+              "RelativeToolTip": "Business.Layer\\Concret\\AuthManager.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAArwHYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:49:29.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProjectUIController.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\ProjectUIController.cs",
+              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\User\\ProjectUIController.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\ProjectUIController.cs",
+              "RelativeToolTip": "Api.Layer\\Controllers\\User\\ProjectUIController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAjwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:46:02.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TeamManager.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\TeamManager.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Concret\\TeamManager.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\TeamManager.cs",
+              "RelativeToolTip": "Business.Layer\\Concret\\TeamManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAjwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:12:20.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ResponseTeam.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\ResponseDto\\ResponseTeam.cs",
               "RelativeDocumentMoniker": "DataTransferObject\\ResponseDto\\ResponseTeam.cs",
@@ -368,20 +505,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ResponseReport.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\ResponseDto\\ResponseReport.cs",
-              "RelativeDocumentMoniker": "DataTransferObject\\ResponseDto\\ResponseReport.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\ResponseDto\\ResponseReport.cs",
-              "RelativeToolTip": "DataTransferObject\\ResponseDto\\ResponseReport.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "20241212085120_deleteStatusCode.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241212085120_deleteStatusCode.cs",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\Migrations\\20241212085120_deleteStatusCode.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241212085120_deleteStatusCode.cs",
+              "RelativeToolTip": "DataAccess.Layer\\Migrations\\20241212085120_deleteStatusCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T15:20:07.725Z",
+              "WhenOpened": "2024-12-12T08:51:20.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
+              "Title": "ErrorManager.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Helper\\ErrorManager.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Helper\\ErrorManager.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Helper\\ErrorManager.cs",
+              "RelativeToolTip": "Business.Layer\\Helper\\ErrorManager.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:32:25.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TeamUIController.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\TeamUIController.cs",
+              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\User\\TeamUIController.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\TeamUIController.cs",
+              "RelativeToolTip": "Api.Layer\\Controllers\\User\\TeamUIController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAnwCUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:46:29.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\ApplicationContext.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\ApplicationContext.cs",
+              "RelativeToolTip": "DataAccess.Layer\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:05:14.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DriveProfile.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\DtoProfile\\DriveProfile.cs",
+              "RelativeDocumentMoniker": "DataTransferObject\\DtoProfile\\DriveProfile.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\DtoProfile\\DriveProfile.cs",
+              "RelativeToolTip": "DataTransferObject\\DtoProfile\\DriveProfile.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA/wA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:30:12.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "ResponseProject.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\ResponseDto\\ResponseProject.cs",
               "RelativeDocumentMoniker": "DataTransferObject\\ResponseDto\\ResponseProject.cs",
@@ -394,197 +583,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Program.cs",
-              "RelativeDocumentMoniker": "Api.Layer\\Program.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Program.cs",
-              "RelativeToolTip": "Api.Layer\\Program.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAkwGAAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:51:25.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TeamController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Admin\\TeamController.cs",
-              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\Admin\\TeamController.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Admin\\TeamController.cs",
-              "RelativeToolTip": "Api.Layer\\Controllers\\Admin\\TeamController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwCUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:48:05.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ReportController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Admin\\ReportController.cs",
-              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\Admin\\ReportController.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Admin\\ReportController.cs",
-              "RelativeToolTip": "Api.Layer\\Controllers\\Admin\\ReportController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAwDIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:48:42.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProjectUIController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\ProjectUIController.cs",
-              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\User\\ProjectUIController.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\ProjectUIController.cs",
-              "RelativeToolTip": "Api.Layer\\Controllers\\User\\ProjectUIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:46:02.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Team.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Team.cs",
-              "RelativeDocumentMoniker": "Entity.Layer\\Entity\\Team.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Team.cs",
-              "RelativeToolTip": "Entity.Layer\\Entity\\Team.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAASwBMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:01:00.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DriveProfile.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\DtoProfile\\DriveProfile.cs",
-              "RelativeDocumentMoniker": "DataTransferObject\\DtoProfile\\DriveProfile.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\DtoProfile\\DriveProfile.cs",
-              "RelativeToolTip": "DataTransferObject\\DtoProfile\\DriveProfile.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwCMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T15:30:12.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ReportUIController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\ReportUIController.cs",
-              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\User\\ReportUIController.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\ReportUIController.cs",
-              "RelativeToolTip": "Api.Layer\\Controllers\\User\\ReportUIController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACAAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:45:40.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TeamUIController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\TeamUIController.cs",
-              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\User\\TeamUIController.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\User\\TeamUIController.cs",
-              "RelativeToolTip": "Api.Layer\\Controllers\\User\\TeamUIController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwDEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:46:29.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Report.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Report.cs",
-              "RelativeDocumentMoniker": "Entity.Layer\\Entity\\Report.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Report.cs",
-              "RelativeToolTip": "Entity.Layer\\Entity\\Report.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:03:14.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DataTransferObject",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\DataTransferObject.csproj",
-              "RelativeDocumentMoniker": "DataTransferObject\\DataTransferObject.csproj",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\DataTransferObject.csproj",
-              "RelativeToolTip": "DataTransferObject\\DataTransferObject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-07T15:15:44.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "EFRepositoryReport.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Concret\\EFRepositoryReport.cs",
-              "RelativeDocumentMoniker": "DataAccess.Layer\\Concret\\EFRepositoryReport.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Concret\\EFRepositoryReport.cs",
-              "RelativeToolTip": "DataAccess.Layer\\Concret\\EFRepositoryReport.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAIAwwFwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T11:49:38.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EFRepositoryTeam.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Concret\\EFRepositoryTeam.cs",
-              "RelativeDocumentMoniker": "DataAccess.Layer\\Concret\\EFRepositoryTeam.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Concret\\EFRepositoryTeam.cs",
-              "RelativeToolTip": "DataAccess.Layer\\Concret\\EFRepositoryTeam.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAuwL0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T15:42:32.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Business.Layer.csproj",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Business.Layer.csproj",
-              "RelativeDocumentMoniker": "Business.Layer\\Business.Layer.csproj",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Business.Layer.csproj",
-              "RelativeToolTip": "Business.Layer\\Business.Layer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-06T13:08:26.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "Member.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Member.cs",
-              "RelativeDocumentMoniker": "Entity.Layer\\Entity\\Member.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Entity.Layer\\Entity\\Member.cs",
-              "RelativeToolTip": "Entity.Layer\\Entity\\Member.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Title": "RequestProject.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestProject.cs",
+              "RelativeDocumentMoniker": "DataTransferObject\\RequestDto\\RequestProject.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestProject.cs",
+              "RelativeToolTip": "DataTransferObject\\RequestDto\\RequestProject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:07:13.183Z",
+              "WhenOpened": "2024-12-07T15:17:02.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "TeamManager.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\TeamManager.cs",
-              "RelativeDocumentMoniker": "Business.Layer\\Concret\\TeamManager.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\TeamManager.cs",
-              "RelativeToolTip": "Business.Layer\\Concret\\TeamManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAjwBwAAAAIAAAAAAAAAA==",
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IGenericService.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Abstract\\IGenericService.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IGenericService.cs",
+              "RelativeToolTip": "Business.Layer\\Abstract\\IGenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:12:20.559Z",
+              "WhenOpened": "2024-12-06T12:08:09.248Z",
               "EditorCaption": ""
             },
             {
@@ -595,7 +615,7 @@
               "RelativeDocumentMoniker": "Shred.Layer\\AuthModel\\LoginModel.cs",
               "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\LoginModel.cs",
               "RelativeToolTip": "Shred.Layer\\AuthModel\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T12:15:39.019Z",
               "EditorCaption": ""
@@ -603,97 +623,175 @@
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "ReportManager.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\ReportManager.cs",
-              "RelativeDocumentMoniker": "Business.Layer\\Concret\\ReportManager.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\ReportManager.cs",
-              "RelativeToolTip": "Business.Layer\\Concret\\ReportManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:13:01.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "DataAccess.Layer\\ApplicationContext.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\ApplicationContext.cs",
-              "RelativeToolTip": "DataAccess.Layer\\ApplicationContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:05:14.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "20241207081913_CreateDatabase.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241207081913_CreateDatabase.cs",
-              "RelativeDocumentMoniker": "DataAccess.Layer\\Migrations\\20241207081913_CreateDatabase.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241207081913_CreateDatabase.cs",
-              "RelativeToolTip": "DataAccess.Layer\\Migrations\\20241207081913_CreateDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T08:19:13.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IReportService.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IReportService.cs",
-              "RelativeDocumentMoniker": "Business.Layer\\Abstract\\IReportService.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IReportService.cs",
-              "RelativeToolTip": "Business.Layer\\Abstract\\IReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:05:55.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
               "Title": "IProject.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Abstract\\IProject.cs",
               "RelativeDocumentMoniker": "DataAccess.Layer\\Abstract\\IProject.cs",
               "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Abstract\\IProject.cs",
               "RelativeToolTip": "DataAccess.Layer\\Abstract\\IProject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T15:40:09.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ObjectValidator.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Helper\\ObjectValidator.cs",
-              "RelativeDocumentMoniker": "Business.Layer\\Helper\\ObjectValidator.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Helper\\ObjectValidator.cs",
-              "RelativeToolTip": "Business.Layer\\Helper\\ObjectValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Abstract\\IAuthService.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IAuthService.cs",
+              "RelativeToolTip": "Business.Layer\\Abstract\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:12:25.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T11:07:32.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IGenericService.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IGenericService.cs",
-              "RelativeDocumentMoniker": "Business.Layer\\Abstract\\IGenericService.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IGenericService.cs",
-              "RelativeToolTip": "Business.Layer\\Abstract\\IGenericService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\UserRoles.cs",
+              "RelativeDocumentMoniker": "Shred.Layer\\AuthModel\\UserRoles.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\UserRoles.cs",
+              "RelativeToolTip": "Shred.Layer\\AuthModel\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:08:09.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T12:21:16.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegistrationModel.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\RegistrationModel.cs",
+              "RelativeDocumentMoniker": "Shred.Layer\\AuthModel\\RegistrationModel.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\RegistrationModel.cs",
+              "RelativeToolTip": "Shred.Layer\\AuthModel\\RegistrationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:16:47.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\Error\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "Shred.Layer\\Error\\ErrorResponse.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\Error\\ErrorResponse.cs",
+              "RelativeToolTip": "Shred.Layer\\Error\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:39:38.692Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
+              "Title": "ProjectValidator.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\ProjectValidator.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Validator\\ProjectValidator.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\ProjectValidator.cs",
+              "RelativeToolTip": "Business.Layer\\Validator\\ProjectValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:41:17.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20241211131455_init.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241211131455_init.cs",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\Migrations\\20241211131455_init.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241211131455_init.cs",
+              "RelativeToolTip": "DataAccess.Layer\\Migrations\\20241211131455_init.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:14:55.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DataAccess.Layer.csproj",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\DataAccess.Layer.csproj",
+              "RelativeDocumentMoniker": "DataAccess.Layer\\DataAccess.Layer.csproj",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\DataAccess.Layer.csproj",
+              "RelativeToolTip": "DataAccess.Layer\\DataAccess.Layer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-03T06:44:52.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Api.Layer.csproj",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Api.Layer.csproj",
+              "RelativeDocumentMoniker": "Api.Layer\\Api.Layer.csproj",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Api.Layer.csproj",
+              "RelativeToolTip": "Api.Layer\\Api.Layer.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-11T12:46:15.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegistrationModelValidator.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\RegistrationModelValidator.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Validator\\RegistrationModelValidator.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\RegistrationModelValidator.cs",
+              "RelativeToolTip": "Business.Layer\\Validator\\RegistrationModelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:02:28.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginModelValidator.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\LoginModelValidator.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Validator\\LoginModelValidator.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\LoginModelValidator.cs",
+              "RelativeToolTip": "Business.Layer\\Validator\\LoginModelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:03:05.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "JWT.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\JWT.cs",
+              "RelativeDocumentMoniker": "Shred.Layer\\AuthModel\\JWT.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\JWT.cs",
+              "RelativeToolTip": "Shred.Layer\\AuthModel\\JWT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:24:18.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Shred.Layer.csproj",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\Shred.Layer.csproj",
+              "RelativeDocumentMoniker": "Shred.Layer\\Shred.Layer.csproj",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\Shred.Layer.csproj",
+              "RelativeToolTip": "Shred.Layer\\Shred.Layer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T12:15:13.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Api.Layer\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:08:32.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "ITeamService.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\ITeamService.cs",
               "RelativeDocumentMoniker": "Business.Layer\\Abstract\\ITeamService.cs",
@@ -701,38 +799,131 @@
               "RelativeToolTip": "Business.Layer\\Abstract\\ITeamService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:07:45.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:07:45.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "IProjectService.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IProjectService.cs",
               "RelativeDocumentMoniker": "Business.Layer\\Abstract\\IProjectService.cs",
               "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IProjectService.cs",
               "RelativeToolTip": "Business.Layer\\Abstract\\IProjectService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:04:00.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:04:00.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "IGeneric.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Abstract\\IGeneric.cs",
               "RelativeDocumentMoniker": "DataAccess.Layer\\Abstract\\IGeneric.cs",
               "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Abstract\\IGeneric.cs",
               "RelativeToolTip": "DataAccess.Layer\\Abstract\\IGeneric.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T15:31:25.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T15:31:25.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
+              "Title": "DataTransferObject.csproj",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\DataTransferObject.csproj",
+              "RelativeDocumentMoniker": "DataTransferObject\\DataTransferObject.csproj",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\DataTransferObject.csproj",
+              "RelativeToolTip": "DataTransferObject\\DataTransferObject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T15:15:44.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\appsettings.json",
+              "RelativeDocumentMoniker": "Api.Layer\\appsettings.json",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\appsettings.json",
+              "RelativeToolTip": "Api.Layer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T08:01:43.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ResponseReport.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\ResponseDto\\ResponseReport.cs",
+              "RelativeDocumentMoniker": "DataTransferObject\\ResponseDto\\ResponseReport.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\ResponseDto\\ResponseReport.cs",
+              "RelativeToolTip": "DataTransferObject\\ResponseDto\\ResponseReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:20:07.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ReportValidator.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\ReportValidator.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Validator\\ReportValidator.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Validator\\ReportValidator.cs",
+              "RelativeToolTip": "Business.Layer\\Validator\\ReportValidator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:45:07.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RequestTeam.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestTeam.cs",
+              "RelativeDocumentMoniker": "DataTransferObject\\RequestDto\\RequestTeam.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestTeam.cs",
+              "RelativeToolTip": "DataTransferObject\\RequestDto\\RequestTeam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:18:04.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RequestReport.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestReport.cs",
+              "RelativeDocumentMoniker": "DataTransferObject\\RequestDto\\RequestReport.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataTransferObject\\RequestDto\\RequestReport.cs",
+              "RelativeToolTip": "DataTransferObject\\RequestDto\\RequestReport.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:18:32.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Business.Layer.csproj",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Business.Layer.csproj",
+              "RelativeDocumentMoniker": "Business.Layer\\Business.Layer.csproj",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Business.Layer.csproj",
+              "RelativeToolTip": "Business.Layer\\Business.Layer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-06T13:08:26.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IReportService.cs",
+              "RelativeDocumentMoniker": "Business.Layer\\Abstract\\IReportService.cs",
+              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IReportService.cs",
+              "RelativeToolTip": "Business.Layer\\Abstract\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:05:55.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "IReport.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Abstract\\IReport.cs",
               "RelativeDocumentMoniker": "DataAccess.Layer\\Abstract\\IReport.cs",
@@ -740,12 +931,11 @@
               "RelativeToolTip": "DataAccess.Layer\\Abstract\\IReport.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T15:38:03.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T15:38:03.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 53,
               "Title": "20241206085452_CreateIsActiveColumn.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241206085452_CreateIsActiveColumn.cs",
               "RelativeDocumentMoniker": "DataAccess.Layer\\Migrations\\20241206085452_CreateIsActiveColumn.cs",
@@ -756,33 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "RegistrationModel.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\RegistrationModel.cs",
-              "RelativeDocumentMoniker": "Shred.Layer\\AuthModel\\RegistrationModel.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\RegistrationModel.cs",
-              "RelativeToolTip": "Shred.Layer\\AuthModel\\RegistrationModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:16:47.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\appsettings.json",
-              "RelativeDocumentMoniker": "Api.Layer\\appsettings.json",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\appsettings.json",
-              "RelativeToolTip": "Api.Layer\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-03T08:01:43.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 54,
               "Title": "ITeam.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Abstract\\ITeam.cs",
               "RelativeDocumentMoniker": "DataAccess.Layer\\Abstract\\ITeam.cs",
@@ -790,116 +954,11 @@
               "RelativeToolTip": "DataAccess.Layer\\Abstract\\ITeam.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T15:40:50.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T15:40:50.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Api.Layer\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:08:32.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Auth\\AuthController.cs",
-              "RelativeDocumentMoniker": "Api.Layer\\Controllers\\Auth\\AuthController.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Api.Layer\\Controllers\\Auth\\AuthController.cs",
-              "RelativeToolTip": "Api.Layer\\Controllers\\Auth\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAtwBEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:07:16.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "AuthManager.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\AuthManager.cs",
-              "RelativeDocumentMoniker": "Business.Layer\\Concret\\AuthManager.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Concret\\AuthManager.cs",
-              "RelativeToolTip": "Business.Layer\\Concret\\AuthManager.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAD4vz4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:49:29.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "UserRoles.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\UserRoles.cs",
-              "RelativeDocumentMoniker": "Shred.Layer\\AuthModel\\UserRoles.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\UserRoles.cs",
-              "RelativeToolTip": "Shred.Layer\\AuthModel\\UserRoles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:21:16.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "JWT.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\JWT.cs",
-              "RelativeDocumentMoniker": "Shred.Layer\\AuthModel\\JWT.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\AuthModel\\JWT.cs",
-              "RelativeToolTip": "Shred.Layer\\AuthModel\\JWT.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:24:18.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Shred.Layer.csproj",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\Shred.Layer.csproj",
-              "RelativeDocumentMoniker": "Shred.Layer\\Shred.Layer.csproj",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Shred.Layer\\Shred.Layer.csproj",
-              "RelativeToolTip": "Shred.Layer\\Shred.Layer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-05T12:15:13.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Business.Layer\\Abstract\\IAuthService.cs",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\Abstract\\IAuthService.cs",
-              "RelativeToolTip": "Business.Layer\\Abstract\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T11:07:32.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "DataAccess.Layer.csproj",
-              "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\DataAccess.Layer.csproj",
-              "RelativeDocumentMoniker": "DataAccess.Layer\\DataAccess.Layer.csproj",
-              "ToolTip": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\DataAccess.Layer.csproj",
-              "RelativeToolTip": "DataAccess.Layer\\DataAccess.Layer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-03T06:44:52.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "20241203082725_CreateDatabaseTableRationship.cs",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\DataAccess.Layer\\Migrations\\20241203082725_CreateDatabaseTableRationship.cs",
               "RelativeDocumentMoniker": "DataAccess.Layer\\Migrations\\20241203082725_CreateDatabaseTableRationship.cs",
@@ -910,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "Business.Layer.pdb",
               "DocumentMoniker": "D:\\GitHub test\\CRM_CrocuSoftTask\\Business.Layer\\bin\\Debug\\net8.0\\Business.Layer.pdb",
               "RelativeDocumentMoniker": "Business.Layer\\bin\\Debug\\net8.0\\Business.Layer.pdb",

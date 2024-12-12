@@ -1,17 +1,17 @@
 ﻿using AutoMapper;
 using Business.Layer.Abstract;
-using DataAccess.Layer.Abstract;
+using Business.Layer.Helper;
 using DataTransferObject.RequestDto;
 using Entity.Layer.Entity;
 using FluentValidation;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace Api.Layer.Controllers.Admin
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Admin")]
     public class ReportController : ControllerBase
     {
         private readonly IReportService _reportService;
@@ -25,37 +25,68 @@ namespace Api.Layer.Controllers.Admin
             _mapper = mapper;
             _validator = validator;
         }
+
         [HttpPost("AddReport")]
         public async Task<IActionResult> AddReport(RequestReport report)
         {
+            if (!User.Identity.IsAuthenticated)
+            {
+                return Unauthorized(ErrorManager.ErrorHandling(401));
+            }
             var validation = _validator.Validate(report);
             if (validation.IsValid)
             {
                 var mapReport = _mapper.Map<Report>(report);
-                bool IsSuccess = await _reportService.Add(mapReport);
-                return IsSuccess ? Ok(IsSuccess) : BadRequest(IsSuccess);
+                (bool IsSuccess, int statusCode) result = await _reportService.Add(mapReport);
+                if (result.IsSuccess)
+                {
+                    return Ok(result.IsSuccess);
+                }
+                var data = ErrorManager.ErrorHandling(result.statusCode);
+                return (data.StatusCode == 404) ? NotFound(data) : StatusCode(data.StatusCode, data.Error);
             }
-            return BadRequest();
+            return BadRequest(ErrorManager.ErrorHandling(400, validation.Errors.Select(x => x.PropertyName).ToList()));
         }
 
         [HttpPut("UpdateReport")]
         public async Task<IActionResult> UpdateReport(RequestReport report)
         {
+            if (!User.Identity.IsAuthenticated)
+            {
+                return Unauthorized(ErrorManager.ErrorHandling(401));
+            }
+
             var validation = _validator.Validate(report);
             if (validation.IsValid)
-            { 
+            {
                 var mapReport = _mapper.Map<Report>(report);
-                bool IsSuccess = await _reportService.Update(mapReport);
-                return IsSuccess ? Ok(IsSuccess) : BadRequest(IsSuccess);
+                (bool IsSuccess, int statusCode) result = await _reportService.Update(mapReport);
+                if (result.IsSuccess)
+                {
+                    return Ok(result.IsSuccess);
+                }
+                var data = ErrorManager.ErrorHandling(result.statusCode);
+                return (data.StatusCode == 404) ? NotFound(data) : StatusCode(data.StatusCode, data.Error);
             }
-            return BadRequest();    
+
+            return BadRequest(ErrorManager.ErrorHandling(400, validation.Errors.Select(x => x.PropertyName).ToList()));
         }
 
-        [HttpGet("DeleteReport/{id}")]
+        [HttpDelete("DeleteReport/{id}")]
         public async Task<IActionResult> DeleteReport(int id)
         {
-            bool IsSuccess = await _reportService.Delete(id);
-            return IsSuccess ? Ok(IsSuccess) : BadRequest(IsSuccess);
+            if (!User.Identity.IsAuthenticated)
+            {
+                return Unauthorized(ErrorManager.ErrorHandling(401));
+            }
+
+            (bool IsSuccess, int statusCode) result = await _reportService.Delete(id);
+            if (result.IsSuccess)
+            {
+                return Ok(result.IsSuccess);
+            }
+            var data = ErrorManager.ErrorHandling(result.statusCode);
+            return (data.StatusCode == 404) ? NotFound(data) : StatusCode(data.StatusCode, data.Error);
         }
     }
 }

@@ -1,13 +1,13 @@
 ﻿using DataAccess.Layer.Abstract;
-using Entity.Layer;
+//using Entity.Layer;
 using Entity.Layer.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
 namespace DataAccess.Layer.Concret
 {
@@ -22,7 +22,7 @@ namespace DataAccess.Layer.Concret
             _logger = logger;
         }
 
-        public async Task<bool> Add(Report t)
+        public async Task<(bool, int StatusCode)> Add(Report t)
         {
             try
             {
@@ -31,55 +31,59 @@ namespace DataAccess.Layer.Concret
                 {
                     await _context.AddAsync(t);
                     await _context.SaveChangesAsync();
-                    return true;
+                    return (true,200);
                 }
-                return false;
+                return (false,404);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                return false;
+                return (false,500);
             }
 
         }
 
-        public async Task<bool> Delete(int id)
+        public async Task<(bool, int StatusCode)> Delete(int id)
         {
             try
             {
                 var data = await GetById(id);
-                data.IsActive = false;
-                await _context.SaveChangesAsync();
-                return true;
+                if (data.StatusCode == 200)
+                {
+                    data.Item1.IsActive = false;
+                    await _context.SaveChangesAsync();
+                    return (true, 200);
+                }
+                return (false, 404);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                return false;
+                return (false,500);
             }
         }
-
-        public async Task<List<Report>> GetAll()
+        
+        public async Task<(List<Report>, int StatusCode)> GetAll()
         {
             var data = await _context.Reaports.Where(p => p.IsActive).ToListAsync();
-            return data;
+            return data.Count > 0 ? (data, 200) : (new List<Report>(), 404);
         }
 
-        public async Task<Report> GetById(int id)
+        public async Task<(Report, int StatusCode)> GetById(int id)
         {
             try
             {
                 var data = _context.Reaports.FirstOrDefault(x => x.ReaportId == id && x.IsActive);
-                return data != null ? data : new Report { };
+                return data != null ? (data,200) : (new Report { }, 404);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                return new Report { };
+                return (new Report { },500) ;
             }
         }
 
-        public async Task<bool> Update(Report t)
+        public async Task<(bool, int StatusCode)> Update(Report t)
         {
             try
             {
@@ -88,14 +92,14 @@ namespace DataAccess.Layer.Concret
                 {
                     var data = _context.Reaports.Update(t);
                     await _context.SaveChangesAsync();
-                    return true;
+                    return (true,200);
                 }
-                return false;
+                return (false,404);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                return false;
+                return (false,500);
             }
         }
     }

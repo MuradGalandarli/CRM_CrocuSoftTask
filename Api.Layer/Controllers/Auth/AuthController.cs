@@ -1,4 +1,6 @@
 ﻿using Business.Layer.Abstract;
+using Business.Layer.Validator;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Shred.Layer.AuthModel;
@@ -10,13 +12,17 @@ namespace Api.Layer.Controllers.Auth
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
-        
-        public AuthController(IAuthService authService)
+        private readonly IValidator<LoginModel> _loginValidator;
+        private readonly IValidator<RegistrationModel> _registrationValidator;
+
+        public AuthController(IAuthService authService,
+           IValidator<LoginModel> _loginValidator,
+           IValidator<RegistrationModel> _registrationValidator)
         {
             _authService = authService;
-           
+            this._loginValidator = _loginValidator;
+            this._registrationValidator = _registrationValidator;
         }
-
 
         [HttpPost]
         [Route("login")]
@@ -24,8 +30,9 @@ namespace Api.Layer.Controllers.Auth
         {
             try
             {
-                if (!ModelState.IsValid)
-                    return BadRequest("Invalid payload");
+                var validation = _loginValidator.Validate(model);
+                if (!validation.IsValid)
+                    return BadRequest(validation.Errors.Select(x => x.ErrorMessage));
                 var (status, message) = await _authService.Login(model);
                 if (status == 0)
                     return BadRequest(message);
@@ -33,7 +40,6 @@ namespace Api.Layer.Controllers.Auth
             }
             catch (Exception ex)
             {
-                
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
@@ -44,9 +50,10 @@ namespace Api.Layer.Controllers.Auth
         {
             try
             {
-                if (!ModelState.IsValid)
-                    return BadRequest("Invalid payload");
-                var (status, message) = await _authService.Registeration(model, UserRoles.Admin);
+                var validation = _registrationValidator.Validate(model);
+                if (!validation.IsValid)
+                    return BadRequest(validation.Errors.Select(x=>x.ErrorMessage));
+                var (status, message) = await _authService.Registeration(model, UserRoles.User);
                 if (status == 0)
                 {
                     return BadRequest(message);
@@ -56,7 +63,6 @@ namespace Api.Layer.Controllers.Auth
             }
             catch (Exception ex)
             {
-               
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
