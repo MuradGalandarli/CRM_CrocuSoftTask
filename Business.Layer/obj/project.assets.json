@@ -1107,6 +1107,9 @@
       "Entity.Layer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0"
+        },
         "compile": {
           "bin/placeholder/Entity.Layer.dll": {}
         },

@@ -12,7 +12,7 @@ namespace Api.Layer.Controllers.Admin
   
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,User")]
     public class ProjectController : ControllerBase
     {
         private readonly IProjectService _projectService;
@@ -28,7 +28,7 @@ namespace Api.Layer.Controllers.Admin
         }
 
         [HttpPost("AddProject")]
-        public async Task<IActionResult> AddReport(RequestProject project)
+        public async Task<IActionResult> AddReport([FromBody] RequestProject project)
         {
             if (!User.Identity.IsAuthenticated)
             {
@@ -51,7 +51,7 @@ namespace Api.Layer.Controllers.Admin
         }
 
         [HttpPut("UpdateProject")]
-        public async Task<IActionResult> UpdateProject(RequestProject project)
+        public async Task<IActionResult> UpdateProject([FromBody]RequestProject project)
         {
             if (!User.Identity.IsAuthenticated)
             {

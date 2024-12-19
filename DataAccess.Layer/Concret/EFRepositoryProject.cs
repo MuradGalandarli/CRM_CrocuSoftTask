@@ -71,7 +71,8 @@ namespace DataAccess.Layer.Concret
         {
             try
             {
-                var data = await _context.Projects.Where(p => p.IsActive).ToListAsync();
+                var data = await _context.Projects.Where(p => p.IsActive).
+                    Include(x=>x.Reports.Where(x=>x.IsActive)).ToListAsync();
                
                 return data.Count > 0 ? (data,200) : (new List<Project>(),404);
             }
@@ -87,7 +88,9 @@ namespace DataAccess.Layer.Concret
         {
             try
             {
-                var data = _context.Projects.FirstOrDefault(x => x.ProjectId == id && x.IsActive);
+                var data = _context.Projects.
+                    Include(x=>x.Reports).
+                    FirstOrDefault(x => x.ProjectId == id && x.IsActive);
                 return data != null ? (data,200) : (new Project { },404);
             }
             catch (Exception ex)

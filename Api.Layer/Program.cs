@@ -6,6 +6,7 @@ using DataAccess.Layer.Abstract;
 using DataAccess.Layer.Concret;
 using DataTransferObject.DtoProfile;
 using DataTransferObject.RequestDto;
+using Entity.Layer.Entity;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -36,13 +37,16 @@ namespace Api.Layer
             builder.Services.AddScoped<IReportService, ReportManager>();
             builder.Services.AddScoped<ITeam, EFRepositoryTeam>();
             builder.Services.AddScoped<ITeamService, TeamManager>();
+            builder.Services.AddScoped<IUserService, UserManager>();
+
+            builder.Services.AddScoped<Token>();
 
             builder.Services.AddAutoMapper(typeof(DriveProfile).Assembly);
-           
+            
             builder.Services.AddDbContext<ApplicationContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
                  options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationContext>();
 
@@ -77,6 +81,8 @@ namespace Api.Layer
             builder.Services.AddScoped<IValidator<RequestReport>, ReportValidator>();
             builder.Services.AddScoped<IValidator<RegistrationModel>,RegistrationModelValidator>();
             builder.Services.AddScoped<IValidator<LoginModel>, LoginModelValidator>();
+            builder.Services.AddScoped<IValidator<RequestUser>, RequestUserValidator>();
+            builder.Services.AddScoped<IValidator<RequestUserUpdate>, RequestUserUpdateValidator>();
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -96,10 +102,18 @@ namespace Api.Layer
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
+            /*  if (app.Environment.IsDevelopment())
+              { 
+                  app.UseSwagger();
+                  app.UseSwaggerUI();
+              }*/
+            if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                });
             }
             app.UseCors("AllowAll");
             app.UseHttpsRedirection();

@@ -11,7 +11,7 @@ namespace Api.Layer.Controllers.Admin
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,User")]
     public class TeamController : ControllerBase
     {
         private readonly ITeamService _teamService;
@@ -28,7 +28,7 @@ namespace Api.Layer.Controllers.Admin
         }
 
         [HttpPost("AddTeam")]
-        public async Task<IActionResult> AddTeam(RequestTeam team)
+        public async Task<IActionResult> AddTeam([FromBody] RequestTeam team)
         {
             if (!User.Identity.IsAuthenticated)
             {
@@ -50,7 +50,7 @@ namespace Api.Layer.Controllers.Admin
         }
 
         [HttpPut("UpdateTeam")]
-        public async Task<IActionResult> UpdateTeam(RequestTeam team)
+        public async Task<IActionResult> UpdateTeam([FromBody] RequestTeam team)
         {
             if (!User.Identity.IsAuthenticated)
             {

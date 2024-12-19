@@ -1,15 +1,15 @@
-﻿using Shred.Layer.AuthModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Azure.Core;
+using Entity.Layer.Entity;
+using Shred.Layer.AuthModel;
 
 namespace Business.Layer.Abstract
 {
     public interface IAuthService
     {
         Task<(int, string)> Registeration(RegistrationModel model, string role);
-        Task<(int, string)> Login(LoginModel model);
+        Task<(int, Token)> Login(LoginModel model);
+        Task<Token> UpdateToken(RefreshTokenModel refreshToken);
+        Task<(AppUser,int StatusCode)> DecodeToken(string email);
+
     }
 }

@@ -14,8 +14,7 @@ namespace Business.Layer.Validator
         public TeamValidator()
         {
             RuleFor(x => x.Name).NotEmpty().NotNull();
-            RuleFor(x => x.TeamMembers).NotEmpty().NotNull();
-            
+           
         }
     }
 }

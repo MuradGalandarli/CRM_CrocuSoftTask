@@ -15,7 +15,7 @@ namespace DataAccess.Layer
         public DbSet<Project> Projects { get; set; }
         public DbSet<Report> Reaports { get; set; }
         public DbSet<Team> Teams { get; set; }
-        public DbSet<Member> Members { get; set; }
+        public DbSet<AppUser> AppUser { get; set; }
 
     }
 }

@@ -16,6 +16,6 @@ namespace DataTransferObject.ResponseDto
         public string? Image { get; set; }
       //  public Team? Team { get; set; }
         public int? TeamId { get; set; }
-     //   public List<Report>? Reports { get; set; }
+        public List<ResponseReport>? Reports { get; set; }
     }
 }

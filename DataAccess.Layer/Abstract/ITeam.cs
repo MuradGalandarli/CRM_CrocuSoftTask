@@ -9,5 +9,6 @@ namespace DataAccess.Layer.Abstract
 {
     public interface ITeam:IGeneric<Team>
     {
+        public Task<bool> CheckTeam(int teamId);
     }
 }

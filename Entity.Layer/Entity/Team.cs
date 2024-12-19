@@ -14,10 +14,10 @@ namespace Entity.Layer.Entity
         public int TeamId { get; set; }
         public string? Name { get; set; }
         public bool IsActive { get; set; } = true;
-        [NotMapped]
-        public List<string>? TeamMembers { get; set; } = new List<string>();
-        public List<Member>? Member { get; set; }
+        public List<AppUser>? AppUsers { get; set; }
         public List<Project>? Projects { get; set; }
+
+
        
     }
 }

@@ -9,12 +9,10 @@ namespace Shred.Layer.AuthModel
 {
     public class RegistrationModel
     {
-    
-        //[EmailAddress]
-        //[Required(ErrorMessage = "Email is required")]
+        public string? Name { get; set; }
+        public string? SurName { get; set; }
         public string? Email { get; set; }
-
-        //[Required(ErrorMessage = "Password is required")]
         public string? Password { get; set; }
+        public int TeamId { get; set; }
     }
 }

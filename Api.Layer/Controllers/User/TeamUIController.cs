@@ -8,7 +8,6 @@ using System.Text.Json;
 
 namespace Api.Layer.Controllers.User
 {
-    
     [Route("api/[controller]")]
     [ApiController]
     [Authorize(Roles = "Admin,User")]
@@ -65,7 +64,6 @@ namespace Api.Layer.Controllers.User
             {
                 return Unauthorized(ErrorManager.ErrorHandling(401));
             }
-
             var result = await _teamService.GetAll();
             switch (result.StatusCode)
             {

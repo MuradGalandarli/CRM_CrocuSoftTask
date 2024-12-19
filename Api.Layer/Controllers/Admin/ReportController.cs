@@ -11,7 +11,7 @@ namespace Api.Layer.Controllers.Admin
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,User")]
     public class ReportController : ControllerBase
     {
         private readonly IReportService _reportService;
@@ -27,7 +27,7 @@ namespace Api.Layer.Controllers.Admin
         }
 
         [HttpPost("AddReport")]
-        public async Task<IActionResult> AddReport(RequestReport report)
+        public async Task<IActionResult> AddReport([FromBody] RequestReport report)
         {
             if (!User.Identity.IsAuthenticated)
             {
@@ -49,7 +49,7 @@ namespace Api.Layer.Controllers.Admin
         }
 
         [HttpPut("UpdateReport")]
-        public async Task<IActionResult> UpdateReport(RequestReport report)
+        public async Task<IActionResult> UpdateReport([FromBody] RequestReport report)
         {
             if (!User.Identity.IsAuthenticated)
             {

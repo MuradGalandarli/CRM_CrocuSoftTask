@@ -24,6 +24,10 @@ namespace DataTransferObject.DtoProfile
             CreateMap<ResponseReport, Report>();
             CreateMap<Report, ResponseReport>();
 
+            CreateMap<ResponseUser, AppUser>();
+            CreateMap<AppUser, ResponseUser>();
+
+
 
 
             CreateMap<RequestTeam, Team>();
@@ -34,6 +38,13 @@ namespace DataTransferObject.DtoProfile
 
             CreateMap<RequestReport, Report>();
             CreateMap<Report, RequestReport>();
+
+            CreateMap<RequestUser, AppUser>();
+            CreateMap<AppUser, RequestUser>();
+
+            CreateMap<RequestUserUpdate, AppUser>();
+            CreateMap<AppUser, RequestUserUpdate>();
+
         }
     }
 }
